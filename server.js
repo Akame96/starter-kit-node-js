@@ -5,12 +5,12 @@ const port = 3000;
 
 app.get("/", (req, res) => res.send("Welcome to my Server!"));
 
-app.get('/about', (req, res) => {
-    res.send('Questa è la pagina About');
+app.get('/1', (req, res) => {
+    res.send('Questa è la pagina numero 1');
   });
 
-  app.get('/contact', (req, res) => {
-    res.send('Questa è la pagina Contact');
+  app.get('/2', (req, res) => {
+    res.send('Questa è la pagina numero 2');
   });
 
 
